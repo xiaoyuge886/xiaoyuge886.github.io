@@ -145,6 +145,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
@@ -161,6 +181,26 @@
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-message">
+          <a href="/message" rel="section">
+            
+              <i class="menu-item-icon fa fa-question-circle fa-fw"></i> <br />
+            
+            menu.message
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-guestbook">
+          <a href="/guestbook" rel="section">
+            
+              <i class="menu-item-icon fa fa-question-circle fa-fw"></i> <br />
+            
+            留言
           </a>
         </li>
       
@@ -187,6 +227,13 @@
       <p>title: Tagcloud<br>date: 2014-12-22 12:39:04<br>type: “tags”<br>comments: false</p>
 
     
+
+
+
+  <div class="comments" id="comments">
+    
+  </div>
+
   </div>
 
 
@@ -240,10 +287,10 @@
           </div>
 
           <div class="site-state-item site-state-categories">
-            
+            <a href="/categories">
               <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">分类</span>
-              
+              </a>
           </div>
 
           <div class="site-state-item site-state-tags">
@@ -356,7 +403,7 @@
   
 
   
-    
+  
 
   
     
@@ -378,8 +425,8 @@
      
 
 
-    
   
+{% endblock %
 
   
   <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
@@ -404,6 +451,30 @@
   
 
   
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"xiaoyuge886"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+    
+     
+
+
+  
+{% endblock %
   
 
 </body>
